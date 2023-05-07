@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['saadgi to hamari', 'bol kafara', 'ukulele'];
 
 // Keep track of song
 let songIndex = 2;
@@ -24,7 +24,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.jpg`;
+  cover.src = `image/${song}.jpg`;
 }
 
 // Play song
